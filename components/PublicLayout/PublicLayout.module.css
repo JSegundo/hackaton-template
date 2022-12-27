@@ -1,0 +1,33 @@
+.container {
+  margin: 50px auto;
+  min-height: calc(100vh - 223px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer {
+  color: #fff;
+  border-radius: 0 !important;
+  padding: 20px 0;
+}
+
+.footerInner {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.footer span {
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media (max-width: 599px) {
+  .container {
+    min-height: calc(100vh - 215px);
+  }
+}
